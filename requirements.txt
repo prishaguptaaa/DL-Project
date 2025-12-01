@@ -1,0 +1,43 @@
+# Core Python
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.8
+
+# HTTP / Timezones / utils
+requests>=2.31
+pytz>=2024.10
+
+# Machine Learning / Deep Learning
+scikit-learn>=1.2
+tensorflow>=2.14          # (includes tensorflow.keras)
+keras>=2.14.0             # safe to include but TF provides Keras API
+torch>=2.1                # optional — remove if you won't use PyTorch / GPU
+
+# Crypto / Market data
+ccxt>=2.0
+aiohttp>=3.8
+websockets>=11.0
+
+# Fast numeric & IO
+pyarrow>=11.0
+h5py>=3.8
+numba>=0.57
+fastparquet>=0.9
+python-snappy>=0.6
+sortedcontainers>=2.0
+
+# Backtesting / vectorized ops
+vectorbt>=0.26
+
+# Technical indicators (pure-python alternative to TA-Lib)
+ta>=0.12.0
+TA-Lib>=0.4.27  # optional: may need system-level C lib; remove if you don't want to compile
+
+# Utilities & dev
+notebook>=6.5
+jupyterlab>=4.0
+black>=24.8
+
+# Optional ML boosters
+lightgbm>=4.0
+xgboost>=2.0
