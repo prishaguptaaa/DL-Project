@@ -341,5 +341,5 @@ It shows that deep learning **can** extract meaningful signals from noisy financ
 
 
 ---
-Have a look on our full report:- DL_report.pdf
+Have a look on our full report:- [DL_report.pdf](https://github.com/prishaguptaaa/DL-Project/blob/735d83edc4658ace5bf57dcee7900608c2dc588c/DL_report.pdf)
 
